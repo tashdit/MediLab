@@ -1,4 +1,10 @@
 import React from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCamera, faSkull, faCalendarCheck, faAddressBook, faCheck } from '@fortawesome/free-solid-svg-icons'
+
+
+
 import "./Footer.css"
 const Footer = () => {
     return (
@@ -56,11 +62,11 @@ const Footer = () => {
                                     </div>
                                 </div>
                                 <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                                    <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-                                    <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                                    <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                                    <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                                    <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                                    <a href="#" className="twitter"><FontAwesomeIcon icon={faCamera} /></a>
+                                    <a href="#" className="facebook"><FontAwesomeIcon icon={faCheck} /></a>
+                                    <a href="#" className="instagram"><FontAwesomeIcon icon={faSkull} /></a>
+                                    <a href="#" className="google-plus"><FontAwesomeIcon icon={faCalendarCheck} /></a>
+                                    <a href="#" className="linkedin"><FontAwesomeIcon icon={faAddressBook} /></a>
                                 </div>
                             </div>
                         </div>
@@ -68,6 +74,7 @@ const Footer = () => {
                 </div>
             </footer>
         </div>
+
     );
 };
 
