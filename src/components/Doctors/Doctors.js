@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCamera, faSkull, faCalendarCheck, faAddressBook, faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faCamera, faCalendarCheck, faAddressBook, faCheck } from '@fortawesome/free-solid-svg-icons'
 import "./Doctors.css"
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';

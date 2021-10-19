@@ -5,6 +5,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 ### Bulet point Practis ###
+## This is Medical Website
+
+- Have a  Doctor Section.
+- Have a Service Serction.
+- Have a About Section.
+- If you have a any qustion then email us.
+- Befor using this site, Please Login.
+
 
 
 
