@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Bulet point Practis ###
 ## This is Medical Website
 
+Hosting : https://medilab-aeba8.web.app/
+
 - Have a  Doctor Section.
 - Have a Service Serction.
 - Have a About Section.
